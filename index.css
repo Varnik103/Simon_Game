@@ -1,0 +1,92 @@
+h1 {
+    margin: auto auto;
+    text-align: center;
+    padding: 4px;
+    font-size: 4rem;
+    color: rgb(208, 208, 127);
+}
+
+.button{
+    margin: auto auto;
+    height: 50%;
+    width: 40%;
+}
+
+body{
+    font-family: 'Goldman',cursive;
+    background-color:rgb(6, 38, 63);
+}
+.one{
+    padding: 102px 0px 0px 0px;
+}
+
+.pressed{
+    opacity: 0.2;
+}
+
+.gameover{
+    background-color: red;
+}
+
+.click{
+    height: 150px;
+    width: 150px;
+    margin: auto auto;
+}
+
+.complete{
+    margin: auto auto;
+    text-align: center;
+    padding: 64px;
+}
+
+.first{
+    background-color: green;
+    margin: 10px;
+}
+
+
+.second{
+    background-color: red;
+    margin: 10px;
+}
+
+
+.third{
+    background-color: yellow;
+    margin: 10px;
+}
+
+
+.fourth{
+    background-color: blue;
+    margin: 10px;
+}
+
+
+.click {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: Brush Script MT;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 100px;
+    text-shadow: 4px 1px 25px #FFFFFF;
+    border: solid #000000 7px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.click:hover {
+     -webkit-box-shadow: inset 0 0 16px 5px #000000;
+     -moz-box-shadow: inset 0 0 16px 5px #000000;
+     box-shadow: inset 0 0 16px 5px #000000;
+    border: solid #000000 7px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+ }
