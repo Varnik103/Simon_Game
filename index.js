@@ -64,11 +64,11 @@ function nextSequence(){
 
 function playSound(playColor){
     if(playColor === "wrong"){
-        var audio=new Audio(playColor + ".wav");
+        var audio=new Audio("./assets/" + playColor + ".wav");
         audio.play();
     }
     else{
-        var audio = new Audio( playColor + ".mp3");
+        var audio = new Audio( "./assets/" + playColor + ".mp3");
         audio.play();
     }
 }
